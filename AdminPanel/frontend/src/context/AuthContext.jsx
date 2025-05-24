@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
     try { 
       const res = await axios.get("/api/auth/me", { withCredentials: true });
       setUser(res.data.user); 
-      //console.log(res.data.user);
+      console.log(res.data.user);
     } catch (err) {
       setUser(null);
     } finally {
