@@ -274,3 +274,20 @@ export const getImagesByEventId = async (req, res) => {
     res.status(500).json({ message: "Server error while fetching images" });
   }
 };
+
+
+// Get all images that are associated with an event
+export const getImagesWithEvents = async (req, res) => {
+  try {
+    //console.log("route hit");
+    const images = await Image.find({ eventId: { $ne: null } });
+    if (!images.length) {
+      return res.status(404).json({ message: "No images associated with any events." });
+    }
+    //console.log("Images",images);
+    res.status(200).json({ images });
+  } catch (err) {
+    console.error("Error fetching images with events:", err);
+    res.status(500).json({ message: "Server error while fetching event images" });
+  }
+};
