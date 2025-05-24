@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://brand-driver-server.onrender.com/api",
         changeOrigin: true,
         secure: false,
       },

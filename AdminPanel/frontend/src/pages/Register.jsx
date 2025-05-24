@@ -18,14 +18,14 @@ const Login = () => {
     try {
       //console.log(email,password);
       const res = await axios.post(
-        "http://localhost:5000/api/auth/register", 
+        "/api/auth/register",
         { name,email,password },
         { withCredentials: true }
       );
       setUser?.(res.data.user); // Optional, if you track user globally
       navigate("/dashboard");
     } catch (err) {
-      console.error(err.data.message);
+      console.error("Error while register",err);
       alert("Invalid email or password or name");
     } finally {
       setLoading(false);
