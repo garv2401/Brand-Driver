@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
-
+import api from '../../../axios';
 const BannerEdit = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ const BannerEdit = () => {
   useEffect(() => {
     const fetchCategoryParents = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/category-parents');
+        const res = await api.get('/api/category-parents');
         setCategoryParents(res.data.parents);
       } catch (err) {
         console.error('Failed to fetch category parents:', err);
@@ -37,7 +37,7 @@ const BannerEdit = () => {
   useEffect(() => {
     const fetchBanner = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/banners/${id}`);
+        const res = await api.get(`/api/banners/${id}`);
         const data = res.data.banner;
 
         setFormData({
@@ -76,7 +76,7 @@ const BannerEdit = () => {
     if (bannerImage) payload.append('bannerImage', bannerImage);
 
     try {
-      await axios.put(`http://localhost:5000/api/banners/update/${id}`, payload, {
+      await api.put(`/api/banners/update/${id}`, payload, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       alert('Banner updated successfully.');

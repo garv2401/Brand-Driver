@@ -7,6 +7,7 @@ import { MdCategory } from "react-icons/md";
 import { RiBarChart2Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import api from "../../axios";
 import axios from "axios";
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
 
   const fetchCategoryParents = async () => {
     try {
-      const res = await axios.get("/api/category-parents");
+      const res = await api.get("/api/category-parents");
       console.log(res.data.parents);
       setItems(res.data.parents);
     } catch (err) {
@@ -30,7 +31,7 @@ const Header = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.post("/api/auth/logout", { withCredentials: true });
+      await api.post("/api/auth/logout", { withCredentials: true });
       setUser(null);
       window.Location.href = "/login";
     } catch (err) {

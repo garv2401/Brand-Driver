@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { Link } from "react-router-dom";
+import api from "../../axios";
 
 const Login = () => {
   const [name,setName]=useState("");
@@ -17,7 +18,7 @@ const Login = () => {
     setLoading(true);
     try {
       //console.log(email,password);
-      const res = await axios.post(
+      const res = await api.post(
         "/api/auth/register",
         { name,email,password },
         { withCredentials: true }

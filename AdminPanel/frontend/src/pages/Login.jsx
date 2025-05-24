@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { Link } from "react-router-dom"; // Adjust path if different
-
+import api from "../../axios";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,7 +16,7 @@ const Login = () => {
     setLoading(true);
     try {
       //console.log(email,password);
-      const res = await axios.post(
+      const res = await api.post(
         "/api/auth/login",
         { email, password },
         { withCredentials: true }

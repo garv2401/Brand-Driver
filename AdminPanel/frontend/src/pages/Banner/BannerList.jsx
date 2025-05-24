@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import api from '../../../axios';
 
 const BannerList = () => {
   const [banners, setBanners] = useState([]);
@@ -9,7 +10,7 @@ const BannerList = () => {
 
   const fetchBanners = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/banners');
+      const res = await api.get('/api/banners');
       console.log(res.data.banners);
       setBanners(res.data.banners || []);
     } catch (err) {
@@ -27,7 +28,7 @@ const BannerList = () => {
     if (!window.confirm('Are you sure you want to delete this banner?')) return;
 
     try {
-      await axios.delete(`http://localhost:5000/api/banners/delete/${id}`);
+      await api.delete(`/api/banners/delete/${id}`);
       fetchBanners(); // Refresh after deletion
     } catch (err) {
       console.error('Error deleting banner:', err);
