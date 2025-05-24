@@ -9,6 +9,7 @@ import categoryRoutes from './routes/categoryRoutes.js'
 import categoryParentRoutes from './routes/categoryParentRoutes.js';
 import categoryDetailsRoutes from './routes/categoryDetailsRoutes.js';
 import imageRoutes from './routes/imageRoutes.js';
+import eventRoutes from './routes/eventRoutes.js'
 import path from 'path';
 import { fileURLToPath } from 'url';
 import cors from "cors";
@@ -37,7 +38,7 @@ app.use(cookieParser());
 // Connect to MongoDB
 connectDB().then(() => {
   app.listen(process.env.PORT || 5000, () =>
-    console.log(`🚀 Server running on http://localhost:${process.env.PORT || 5000}`)
+    console.log(`🚀 Server running `)
   );
 });
  
@@ -58,6 +59,9 @@ app.use('/api/images', imageRoutes);
 app.use('/api/category-parents', categoryParentRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/category-details', categoryDetailsRoutes);
+
+//event routes
+app.use('/api/events',eventRoutes);
 
 
 
