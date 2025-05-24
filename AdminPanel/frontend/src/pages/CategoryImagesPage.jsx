@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import ImageUploadForm from "./Image/imageUpload";
+import api from '../../axios.js'
 
 const CategoryImagesPage = () => {
   const { categoryParentName, categoryParentId } = useParams(); // categoryname (display), id (used to fetch)
@@ -11,7 +12,7 @@ const CategoryImagesPage = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/images/category/${categoryParentId}`);
+        const res = await api.get(`/api/images/category/${categoryParentId}`);
         console.log("Received images:",res.data.images);
         setImages(res.data.images || []);
       } catch (err) {

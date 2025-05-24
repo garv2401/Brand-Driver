@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import api from '../../../axios';
 
 const ImageUploadForm = () => {
   const { categoryParentName, categoryParentId } = useParams();
@@ -32,7 +33,7 @@ const ImageUploadForm = () => {
       setUploading(true);
       setMessage('');
 
-      await axios.post('http://localhost:5000/api/images', formData, {
+      await api.post('/api/images', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

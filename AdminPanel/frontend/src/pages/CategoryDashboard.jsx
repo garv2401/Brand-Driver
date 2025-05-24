@@ -3,6 +3,7 @@ import axios from "axios";
 import Input from "../components/input";
 import Button from "../components/Button";
 import { Card, CardContent } from "../components/Card";
+import api from "../../axios";
 
 const CategoryDashboard = () => {
   const [categories, setCategories] = useState([]);
@@ -18,9 +19,9 @@ const CategoryDashboard = () => {
 
   const fetchAll = async () => {
     const [catRes, parentRes, detailRes] = await Promise.all([
-      axios.get("/api/categories"),
-      axios.get("/api/category-parents"),
-      axios.get("/api/category-details"),
+      api.get("/api/categories"),
+      api.get("/api/category-parents"),
+      api.get("/api/category-details"),
     ]);
     setCategories(catRes.data.categories);
     setParents(parentRes.data.parents);
@@ -32,25 +33,25 @@ const CategoryDashboard = () => {
   }, []);
 
   const handleCreateCategory = async () => {
-    await axios.post("/api/categories", form);
+    await api.post("/api/categories", form);
     setForm({ name: "", parentId: "" });
     fetchAll();
   };
 
   const handleCreateParent = async () => {
-    await axios.post("/api/category-parents", parentForm);
+    await api.post("/api/category-parents", parentForm);
     setParentForm({ name: "", slug: "" });
     fetchAll();
   };
 
   const handleCreateDetail = async () => {
-    await axios.post("/api/category-details", detailForm);
+    await api.post("/api/category-details", detailForm);
     setDetailForm({ categoryId: "", type: "banner" });
     fetchAll();
   };
 
   const deleteItem = async (id, type) => {
-    await axios.delete(`/api/${type}/${id}`);
+    await api.delete(`/api/${type}/${id}`);
     fetchAll();
   };
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
+import api from '../../../axios';
 
 const ImageEdit = () => {
   const userId = "682c9338ad956f255745289b";
@@ -20,7 +21,7 @@ const ImageEdit = () => {
 
     setFabricLib(fabric);
 
-    // 🛑 Dispose existing canvas if already initialized
+    // Dispose existing canvas if already initialized
     if (canvasRef.current && fabric.Canvas) {
       if (fabric.Canvas.instances && fabric.Canvas.instances.length > 0) {
         fabric.Canvas.instances.forEach((instance) => {
@@ -116,7 +117,7 @@ const ImageEdit = () => {
     formData.append('paragraph', paragraph);
 
     try {
-      await axios.post('http://localhost:5000/api/edited-images/upload-edited', formData, {
+      await api.post('/api/edited-images/upload-edited', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       alert('Edited image saved successfully!');

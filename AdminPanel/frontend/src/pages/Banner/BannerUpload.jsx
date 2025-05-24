@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import api from '../../../axios';
 
 const BannerUploadForm = () => {
   const [heading, setHeading] = useState('');
@@ -17,7 +18,7 @@ const BannerUploadForm = () => {
   useEffect(() => {
     const fetchCategoryParents = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/category-parents');
+        const res = await api.get('/api/category-parents');
         setCategoryParents(res.data.parents);
       } catch (err) {
         console.error('Failed to fetch category parents', err);
@@ -52,7 +53,7 @@ const BannerUploadForm = () => {
         headers: { 'Content-Type': 'multipart/form-data' },
       };
 
-      await axios.post('http://localhost:5000/api/banners/upload', formData, config);
+      await api.post('/api/banners/upload', formData, config);
       setMessage('Banner uploaded successfully!');
 
       // Reset form
