@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+/* Thin custom scrollbar */
+.thin-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 116, 139, 0.5); /* Tailwind slate-500 with opacity */
+  border-radius: 4px;
+}
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}

@@ -11,7 +11,6 @@ import CategoryImagesPage from "./pages/CategoryImagesPage";
 import Register from "./pages/Register";
 import Header from "./components/Header";
 import ImageUploadForm from "./pages/Image/imageUpload";
-import ImageEdit from "./pages/Image/imageEdit";
 import { fetchBanners } from './lib/api';  
 
 function App() {
@@ -24,9 +23,7 @@ function App() {
           {/* Public Route */}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/edit-image" element={<ImageEdit />} />
-
-
+    
           {/* Protected Routes */}
           <Route
             path="/*"

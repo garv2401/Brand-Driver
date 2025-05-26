@@ -1,0 +1,130 @@
+{
+    "festivals": [
+        {
+            "festivalName": "Ram Navami",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Baisakhi",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Bakrid / Eid al",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Guru Purnima",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Raksha Bandhan",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Janmashtami",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Ganesh Chaturthi",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Onam",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Durga Ashtami",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Maha Navami",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Dussehra",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Diwali",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Naraka Chaturdashi",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Govardhan Puja",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Christmas Day",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Makar Sankranti",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Pongal",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Maha Shivaratri",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Holi",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Ugadi",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        },
+        {
+            "festivalName": "Gudi Padwa",
+            "parentId": "682b3c0b26ab9a01fee712b4",
+            "status": "active",
+            "description": ""
+        }
+    ]
+}

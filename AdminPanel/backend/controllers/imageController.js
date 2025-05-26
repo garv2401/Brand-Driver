@@ -278,7 +278,7 @@ export const getImagesByEventId = async (req, res) => {
 
 // Get all images that are associated with an event
 export const getImagesWithEvents = async (req, res) => {
-  try {
+  try { 
     //console.log("route hit");
     const images = await Image.find({ eventId: { $ne: null } });
     if (!images.length) {

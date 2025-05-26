@@ -21,7 +21,7 @@ const BannerList = () => {
   };
 
   useEffect(() => {
-    fetchBanners();
+    fetchBanners(); 
   }, []);
 
   const handleDelete = async (id) => {
