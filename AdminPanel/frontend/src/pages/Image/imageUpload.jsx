@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import api from '../../../axios';
+import { useNavigate } from 'react-router-dom';
 
 const ImageUploadForm = () => {
+  const navigate=useNavigate();
   const { categoryParentName, categoryParentId } = useParams();
   //console.log("categoryParent:",categoryParentName,categoryParentId);
   const [title, setTitle] = useState('');
@@ -45,6 +47,7 @@ const ImageUploadForm = () => {
       setCategoryName('');
       setImageFile(null);
       setEventDate('');
+      navigate(0);
     } catch (err) {
       console.error(err);
       setMessage('Upload failed. Please try again.');
