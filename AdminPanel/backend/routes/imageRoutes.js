@@ -8,7 +8,7 @@ import {
   getImagesByCategoryParentId,
   getImagesByEventDate,
   getImagesByCategoryName,
-  getImagesByEventId,
+  getImagesByEventId, 
   getImagesByCategoryParentName,
   getImagesWithEvents
 } from "../controllers/imageController.js";

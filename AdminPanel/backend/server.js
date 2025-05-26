@@ -1,5 +1,4 @@
 import express from "express";
-import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import authRoutes from "./routes/authRoutes.js";
@@ -9,7 +8,8 @@ import categoryRoutes from './routes/categoryRoutes.js'
 import categoryParentRoutes from './routes/categoryParentRoutes.js';
 import categoryDetailsRoutes from './routes/categoryDetailsRoutes.js';
 import imageRoutes from './routes/imageRoutes.js';
-import eventRoutes from './routes/eventRoutes.js'
+import eventRoutes from './routes/eventRoutes.js';
+import festivalRoutes from './routes/festivalRoutes.js';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import cors from "cors";
@@ -32,7 +32,6 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(cookieParser());
-
 
 
 // Connect to MongoDB
@@ -59,9 +58,12 @@ app.use('/api/images', imageRoutes);
 app.use('/api/category-parents', categoryParentRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/category-details', categoryDetailsRoutes);
-
+ 
 //event routes
 app.use('/api/events',eventRoutes);
+
+//festival routes
+app.use('/api/festivals',festivalRoutes);
 
 
 

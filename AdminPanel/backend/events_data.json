@@ -1,0 +1,928 @@
+{
+    "events": [
+        {
+            "eventName": "Bank Holiday (India)",
+            "dateTime": "2025-04-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "April Fools' Day",
+            "dateTime": "2025-04-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Autism Awareness Day",
+            "dateTime": "2025-04-02T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Aquatic Animal Day",
+            "dateTime": "2025-04-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Health Day",
+            "dateTime": "2025-04-07T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Mahavir Jayanti",
+            "dateTime": "2025-04-10T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Ambedkar Jayanti",
+            "dateTime": "2025-04-14T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Bat Appreciation Day",
+            "dateTime": "2025-04-17T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Good Friday",
+            "dateTime": "2025-04-18T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Easter Sunday",
+            "dateTime": "2025-04-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Dark Sky Week",
+            "dateTime": "2025-04-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Earth Day",
+            "dateTime": "2025-04-22T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Pallas's Cat Day",
+            "dateTime": "2025-04-23T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Day for Laboratory Animals",
+            "dateTime": "2025-04-24T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Malaria Day",
+            "dateTime": "2025-04-25T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Arbor Day",
+            "dateTime": "2025-04-26T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Tapir Day",
+            "dateTime": "2025-04-27T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Hyena Day",
+            "dateTime": "2025-04-27T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Day of Remembrance for all Victims of Chemical Warfare",
+            "dateTime": "2025-04-29T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Workers' Day (Labour Day)",
+            "dateTime": "2025-05-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Tuna Day",
+            "dateTime": "2025-05-02T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Leopard Day",
+            "dateTime": "2025-05-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Wild Koala Day",
+            "dateTime": "2025-05-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Press Freedom Day",
+            "dateTime": "2025-05-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Greenery Day (Japan)",
+            "dateTime": "2025-05-04T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Star Wars Day",
+            "dateTime": "2025-05-04T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Donkey Day",
+            "dateTime": "2025-05-08T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Rabindranath Tagore Jayanti",
+            "dateTime": "2025-05-09T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Argania",
+            "dateTime": "2025-05-10T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Mother's Day",
+            "dateTime": "2025-05-11T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Buddha Purnima",
+            "dateTime": "2025-05-12T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Families",
+            "dateTime": "2025-05-15T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Bee Day",
+            "dateTime": "2025-05-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Endangered Species Day",
+            "dateTime": "2025-05-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Fish Migration Day",
+            "dateTime": "2025-05-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day for Biological Diversity",
+            "dateTime": "2025-05-22T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Turtle Day",
+            "dateTime": "2025-05-23T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World No Tobacco Day",
+            "dateTime": "2025-05-31T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Parrot Day",
+            "dateTime": "2025-05-31T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Bicycle Day",
+            "dateTime": "2025-06-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Environment Day",
+            "dateTime": "2025-06-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Food Safety Day",
+            "dateTime": "2025-06-07T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Oceans Day",
+            "dateTime": "2025-06-08T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Global Wind Day",
+            "dateTime": "2025-06-15T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Father's Day",
+            "dateTime": "2025-06-15T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Day to Combat Desertification and Drought",
+            "dateTime": "2025-06-17T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Yoga Day",
+            "dateTime": "2025-06-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Rainforest Day",
+            "dateTime": "2025-06-22T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Camel Day",
+            "dateTime": "2025-06-22T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of the Tropics",
+            "dateTime": "2025-06-29T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Asteroid Day",
+            "dateTime": "2025-06-30T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "National Clean Beaches Week",
+            "dateTime": "2025-07-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Plastic Bag Free Day",
+            "dateTime": "2025-07-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Muharram",
+            "dateTime": "2025-07-06T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Global Energy Independence Day",
+            "dateTime": "2025-07-10T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Population Day",
+            "dateTime": "2025-07-11T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Paper Bag Day",
+            "dateTime": "2025-07-12T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Snake Day",
+            "dateTime": "2025-07-16T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day for the Conservation of the Mangrove Ecosystem",
+            "dateTime": "2025-07-26T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Conservation Day",
+            "dateTime": "2025-07-28T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Hepatitis Day",
+            "dateTime": "2025-07-28T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Tiger Day",
+            "dateTime": "2025-07-29T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Friendship",
+            "dateTime": "2025-07-30T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Tulsidas Jayanti",
+            "dateTime": "2025-07-31T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Friendship Day",
+            "dateTime": "2025-08-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "National Tree Day",
+            "dateTime": "2025-08-06T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Biodiesel Day",
+            "dateTime": "2025-08-10T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Mountain Day",
+            "dateTime": "2025-08-11T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Youth Day",
+            "dateTime": "2025-08-12T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Elephant Day",
+            "dateTime": "2025-08-12T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Independence Day (India)",
+            "dateTime": "2025-08-15T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Orangutan Day",
+            "dateTime": "2025-08-19T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Humanitarian Day",
+            "dateTime": "2025-08-19T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Dog Day",
+            "dateTime": "2025-08-26T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "National Beach Day",
+            "dateTime": "2025-08-30T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Coconut Day",
+            "dateTime": "2025-09-02T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Charity",
+            "dateTime": "2025-09-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Teachers' Day (India)",
+            "dateTime": "2025-09-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Clean Air for Blue Skies",
+            "dateTime": "2025-09-07T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Hindi Diwas",
+            "dateTime": "2025-09-14T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Engineer's Day (Visvesvaraya Jayanti)",
+            "dateTime": "2025-09-15T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day for the Preservation of the Ozone Layer",
+            "dateTime": "2025-09-16T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Bamboo Day",
+            "dateTime": "2025-09-18T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Cleanup Day",
+            "dateTime": "2025-09-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Peace",
+            "dateTime": "2025-09-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Zero Emissions Day",
+            "dateTime": "2025-09-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Maharaja Agrasen Jayanti",
+            "dateTime": "2025-09-22T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Rhino Day",
+            "dateTime": "2025-09-22T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Rabbit Day",
+            "dateTime": "2025-09-24T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Tourism Day",
+            "dateTime": "2025-09-27T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Rivers Day",
+            "dateTime": "2025-09-28T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Awareness of Food Loss and Waste",
+            "dateTime": "2025-09-29T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Older Persons",
+            "dateTime": "2025-10-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Habitat Day",
+            "dateTime": "2025-10-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Gandhi Jayanti",
+            "dateTime": "2025-10-02T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Animal Day",
+            "dateTime": "2025-10-04T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Valmiki Jayanti",
+            "dateTime": "2025-10-07T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Mental Health Day",
+            "dateTime": "2025-10-10T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day for Disaster Reduction",
+            "dateTime": "2025-10-13T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Food Day",
+            "dateTime": "2025-10-16T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Bhai Dooj",
+            "dateTime": "2025-10-23T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Snow Leopard Day",
+            "dateTime": "2025-10-23T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "United Nations Day",
+            "dateTime": "2025-10-24T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Climate Action",
+            "dateTime": "2025-10-24T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Chhath Puja",
+            "dateTime": "2025-10-27T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Cities Day",
+            "dateTime": "2025-10-31T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Guru Nanak Jayanti",
+            "dateTime": "2025-11-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Tsunami Awareness Day",
+            "dateTime": "2025-11-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day for Preventing the Exploitation of the Environment in War and Armed Conflict",
+            "dateTime": "2025-11-06T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Kindness Day",
+            "dateTime": "2025-11-13T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Children's Day (India)",
+            "dateTime": "2025-11-14T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Diabetes Day",
+            "dateTime": "2025-11-14T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Toilet Day",
+            "dateTime": "2025-11-19T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Universal Children's Day",
+            "dateTime": "2025-11-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Guru Tegh Bahadur's Martyrdom Day",
+            "dateTime": "2025-11-24T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World AIDS Day",
+            "dateTime": "2025-12-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "National Pollution Prevention Day (India)",
+            "dateTime": "2025-12-02T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Persons with Disabilities",
+            "dateTime": "2025-12-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Soil Day",
+            "dateTime": "2025-12-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Volunteer Day",
+            "dateTime": "2025-12-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Human Rights Day",
+            "dateTime": "2025-12-10T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Mountain Day",
+            "dateTime": "2025-12-11T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Christmas Eve",
+            "dateTime": "2025-12-24T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "New Year's Eve",
+            "dateTime": "2025-12-31T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "New Year's Day",
+            "dateTime": "2026-01-01T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "National Bird Day",
+            "dateTime": "2026-01-05T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Netaji Subhas Chandra Bose Jayanti",
+            "dateTime": "2026-01-23T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Education",
+            "dateTime": "2026-01-24T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Republic Day (India)",
+            "dateTime": "2026-01-26T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Holocaust Remembrance Day",
+            "dateTime": "2026-01-27T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Wetlands Day",
+            "dateTime": "2026-02-02T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Cancer Day",
+            "dateTime": "2026-02-04T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Zero Tolerance for Female Genital Mutilation",
+            "dateTime": "2026-02-06T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Bonobo Day",
+            "dateTime": "2026-02-14T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Valentine's Day",
+            "dateTime": "2026-02-14T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Whale Day",
+            "dateTime": "2026-02-15T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Lunar New Year",
+            "dateTime": "2026-02-17T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Shivaji Jayanti",
+            "dateTime": "2026-02-19T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Day of Social Justice",
+            "dateTime": "2026-02-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Polar Bear Day",
+            "dateTime": "2026-02-27T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Wildlife Day",
+            "dateTime": "2026-03-03T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Women's Day",
+            "dateTime": "2026-03-08T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Action for Rivers",
+            "dateTime": "2026-03-14T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Global Recycling Day",
+            "dateTime": "2026-03-18T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Happiness",
+            "dateTime": "2026-03-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Frog Day",
+            "dateTime": "2026-03-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Sparrow Day",
+            "dateTime": "2026-03-20T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Eid al",
+            "dateTime": "2026-03-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "International Day of Forests",
+            "dateTime": "2026-03-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Planting Day",
+            "dateTime": "2026-03-21T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Water Day",
+            "dateTime": "2026-03-22T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "World Meteorological Day",
+            "dateTime": "2026-03-23T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Rama Navami",
+            "dateTime": "2026-03-26T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        },
+        {
+            "eventName": "Earth Hour",
+            "dateTime": "2026-03-26T00:00:00",
+            "status": "active",
+            "parentId": "682f1af045e60a70a132a1c9"
+        }
+    ]
+}

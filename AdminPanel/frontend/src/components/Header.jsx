@@ -19,7 +19,9 @@ const Header = () => {
     try {
       const res = await api.get("/api/category-parents");
       console.log(res.data.parents);
-      setItems(res.data.parents);
+      const parents=res.data.parents;
+      const filteredParents=parents.filter((parent)=>parent.name!=='Home Banner');
+      setItems(filteredParents);
     } catch (err) {
       console.error("Error fetching Parents:", err);
     }

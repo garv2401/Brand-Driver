@@ -9,7 +9,7 @@ import {
 import { upload } from '../middlewares/upload.js';
 
 const router = express.Router();
-router.post(
+router.post( 
   '/upload',
   upload.fields([
     { name: 'bannerImage', maxCount: 1 },
@@ -17,7 +17,7 @@ router.post(
   ]),
   uploadBanner
 );
-router.patch('/delete/:id', deleteBanner);
+router.delete('/delete/:id', deleteBanner);
 router.put(
   '/update/:id',
   upload.fields([
