@@ -32,7 +32,8 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // Middlewares 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://brand-driver-adminpanel.onrender.com"
+  "https://brand-driver-adminpanel.onrender.com",
+  "https://brandingdriver.com"
 ];
 
 app.use(cors({
