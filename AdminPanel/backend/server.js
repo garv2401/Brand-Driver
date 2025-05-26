@@ -33,7 +33,8 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 const allowedOrigins = [
   "http://localhost:5173",
   "https://brand-driver-adminpanel.onrender.com",
-  "https://brandingdriver.com"
+  "https://brandingdriver.com",
+  "https://brand-driver-adminpanel.onrender.com"
 ];
 
 app.use(cors({
@@ -41,7 +42,7 @@ app.use(cors({
     // allow requests with no origin (like mobile apps, curl, Postman)
     if (!origin) return callback(null, true);
     if (allowedOrigins.includes(origin)) {
-      return callback(null, true); 
+      return callback(null, true);
     } else {
       return callback(new Error("Not allowed by CORS"));
     }
