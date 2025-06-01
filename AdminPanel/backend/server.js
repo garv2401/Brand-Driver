@@ -10,6 +10,7 @@ import categoryDetailsRoutes from './routes/categoryDetailsRoutes.js';
 import imageRoutes from './routes/imageRoutes.js';
 import eventRoutes from './routes/eventRoutes.js';
 import festivalRoutes from './routes/festivalRoutes.js';
+import userAuthRoutes from "./routes/userAuthRoutes.js";
 import path from 'path';
 import { fileURLToPath } from 'url';
 import cors from "cors";
@@ -59,8 +60,11 @@ app.get('/',(req,res)=>{
     res.send("This is admin panel");
 })
 
-//Auth Routes
+//Admin Auth Routes
 app.use("/api/auth", authRoutes);
+
+//User Auth Routes
+app.use('/api/user',userAuthRoutes);
 
 //Banner Routes
 app.use('/api/banners', bannerRoutes);
