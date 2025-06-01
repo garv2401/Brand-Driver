@@ -77,8 +77,6 @@ app.get('/',(req,res)=>{
     res.send("This is admin panel");
 })
 
-
-
 //Admin Auth Routes
 app.use("/api/auth", authRoutes);
 

@@ -1,10 +1,10 @@
 // routes/userAuthRoutes.js
-// routes/userAuthRoutes.js
-
 import express from "express";
 import passport from "passport";
 import { registerUser, loginUser, logoutUser, verifyEmail } from "../controllers/userAuthController.js";
 import jwt from "jsonwebtoken";
+import express from "express";
+import { registerUser, loginUser, logoutUser,verifyEmail } from "../controllers/userAuthController.js";
 
 const router = express.Router();
 
@@ -13,7 +13,6 @@ router.post("/register", registerUser);
 router.post("/login", loginUser);
 router.post("/logout", logoutUser);
 
-// Google OAuth routes
 router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }));
 
 router.get(
@@ -77,3 +76,4 @@ const GoogleSuccess = () => {
 };
 
 export default GoogleSuccess; */}
+
