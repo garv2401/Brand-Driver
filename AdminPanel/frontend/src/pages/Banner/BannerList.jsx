@@ -95,12 +95,22 @@ const BannerList = () => {
                 >
                   Edit
                 </button>
+
+                {
+                  banner.link && banner.link==='yes' &&(
+                  <a href={banner.bannerImage} className="text-sm text-gray-500 hover:text-gray-700 font-medium">Link</a>
+                  )
+                }
+
+
                 <button
                   onClick={() => handleDelete(banner._id)}
                   className="text-sm text-red-500 hover:text-red-700 font-medium"
                 >
                   Delete
                 </button>
+
+                
               </div>
             </div>
           ))}
