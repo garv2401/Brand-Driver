@@ -12,6 +12,7 @@ import Register from "./pages/Register";
 import Header from "./components/Header";
 import ImageUploadForm from "./pages/Image/imageUpload";
 import { fetchBanners } from './lib/api';  
+import GoogleSuccess from "./pages/GoogleSuccess";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           {/* Public Route */}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/google-success" element={<GoogleSuccess />} />
     
           {/* Protected Routes */}
           <Route

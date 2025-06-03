@@ -12,6 +12,9 @@ import eventRoutes from './routes/eventRoutes.js';
 import festivalRoutes from './routes/festivalRoutes.js';
 import userAuthRoutes from "./routes/userAuthRoutes.js";
 import path from 'path';
+import "./config/passport.js";
+import session from 'express-session';
+import passport from 'passport';
 import { fileURLToPath } from 'url';
 import cors from "cors";
 
@@ -48,6 +51,18 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
+// Session middleware (required for passport)
+app.use(
+  session({
+    secret: "my_secret", // or use process.env
+    resave: false,
+    saveUninitialized: false,
+  })
+);
+
+// Initialize passport
+app.use(passport.initialize());
+app.use(passport.session());
 
 // Connect to MongoDB
 connectDB().then(() => {
@@ -59,6 +74,8 @@ connectDB().then(() => {
 app.get('/',(req,res)=>{
     res.send("This is admin panel");
 })
+
+
 
 //Admin Auth Routes
 app.use("/api/auth", authRoutes);

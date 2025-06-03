@@ -1,21 +1,21 @@
+// src/pages/Login.jsx
 import { useState } from "react";
-import axios from "axios";
-import { useNavigate } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
-import { Link } from "react-router-dom"; // Adjust path if different
+import { Link, useNavigate } from "react-router-dom";
+import GoogleLoginButton from "../components/GoogleLoginButton";
 import api from "../../axios";
+import { useAuth } from "../context/AuthContext";
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
-  const { setUser,fetchUser } = useAuth(); // Optional if you're using context
+  const { setUser, fetchUser } = useAuth();
   const navigate = useNavigate();
 
-  const handleSubmit = async (e) => { 
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     try {
-      //console.log(email,password);
       const res = await api.post(
         "/api/auth/login",
         { email, password },
@@ -25,7 +25,7 @@ const Login = () => {
       fetchUser();
       navigate("/dashboard");
     } catch (err) {
-      console.error(err.data.message);
+      console.error(err);
       alert("Invalid email or password");
     } finally {
       setLoading(false);
@@ -36,7 +36,7 @@ const Login = () => {
     <div className="min-h-[81vh] bg-slate-100 flex items-center justify-center px-4">
       <div className="w-full max-w-md bg-white px-6 py-8 rounded-xl shadow-md border border-slate-200">
         <h2 className="text-3xl font-bold text-center text-indigo-700 mb-6">
-          Admin Login
+          Login
         </h2>
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
@@ -49,7 +49,7 @@ const Login = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="mt-1 w-full px-4 py-2 border border-slate-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              placeholder="admin@example.com"
+              placeholder="you@example.com"
             />
           </div>
           <div>
@@ -65,24 +65,28 @@ const Login = () => {
               placeholder="••••••••"
             />
           </div>
-          <div className="flex flex-row justify-center items-center">
-            <div className="flex flex-row gap-2 items-center">
+          <div className="flex justify-center">
             <button
               type="submit"
               disabled={loading}
-              className="w-20 flex justify-center items-center px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-md transition-all duration-200"
+              className="w-full px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-md"
             >
-              {loading ? "Logging in..." : "Login"} 
+              {loading ? "Logging in..." : "Login"}
             </button>
-
-            <p className="">or</p>
-
-            <Link to="/register" className="text-indigo-600 hover:text-indigo-700">
-             Register
-            </Link>
-            </div>
           </div>
         </form>
+
+        <div className="mt-6 text-center">
+          <p className="mb-2 text-sm text-gray-600">Or login with:</p>
+          <GoogleLoginButton />
+        </div>
+
+        <div className="mt-4 text-sm text-center text-gray-600">
+          Don’t have an account?{" "}
+          <Link to="/register" className="text-indigo-600 hover:text-indigo-700">
+            Register
+          </Link>
+        </div>
       </div>
     </div>
   );
