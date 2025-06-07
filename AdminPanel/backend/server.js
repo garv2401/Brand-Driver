@@ -28,7 +28,7 @@ const __dirname = path.dirname(__filename);
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 
-
+ 
 // Middlewares 
 const allowedOrigins = [
   "http://localhost:5173",
