@@ -63,7 +63,7 @@ app.use(
 
 // Initialize passport
 app.use(passport.initialize());
-app.use(passport.session());
+app.use(passport.session()); 
 
 // Connect to MongoDB
 connectDB().then(() => {
