@@ -28,7 +28,7 @@ export const registerUser = async (req, res) => {
     const token = jwt.sign({ name, email, password }, process.env.JWT_SECRET, { expiresIn: "1d" });
     
     //add frontend link later
-    const verificationLink = `http://localhost:5173/verify?token=${token}`;
+    const verificationLink = `https://brand-driver-server.onrender.com/api/user/verify-email?token=${token}`;
 
     await sendEmail(email, "Verify your account", `Click here to verify: ${verificationLink}`);
 
@@ -53,6 +53,12 @@ export const loginUser = async (req, res) => {
     res.status(500).json({ message: "Error logging in", error: err.message });
   }
 };
+
+
+
+
+//GET REQUEST SENT HERE LIKE THIS
+// https://brand-driver-server.onrender.com/api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiBEb2UiLCJlbWFpbCI6ImpvaG53aWNrMzc2NjdAZ21haWwuY29tIiwicGFzc3dvcmQiOiJzZWNyZXQxMjMiLCJpYXQiOjE3NDkyNzg4NjMsImV4cCI6MTc0OTM2NTI2M30.rgkfB6WETdexfiB_2lArlz4VRrD8C7URKZyx85CH34c
 
 export const verifyEmail = async (req, res) => {
   const { token } = req.query;
