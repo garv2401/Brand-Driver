@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 
-const sendEmail = async (to, subject, text) => {
+const sendEmail = async (to, subject, text, html) => {
   const transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
@@ -10,10 +10,11 @@ const sendEmail = async (to, subject, text) => {
   });
 
   await transporter.sendMail({
-    from: process.env.EMAIL_USER,
+    from: `"BrandDriver" <${process.env.EMAIL_USER}>`,
     to,
     subject,
     text,
+    html,
   });
 };
 

@@ -18,7 +18,6 @@ const createToken = (user) => {
 // request for verify-email/:token
 
 
-
 export const registerUser = async (req, res) => {
   const { name, email, password } = req.body;
   try {
@@ -27,17 +26,24 @@ export const registerUser = async (req, res) => {
 
     const token = jwt.sign({ name, email, password }, process.env.JWT_SECRET, { expiresIn: "1d" });
     
-    //add frontend link later
     const verificationLink = `https://brand-driver-server.onrender.com/api/user/verify-email?token=${token}`;
 
-    await sendEmail(email, "Verify your account", `Click here to verify: ${verificationLink}`);
+    const subject = "Please verify your BrandDriver account";
+    const text = `Click here to verify your account: ${verificationLink}`;
+    const html = `
+      <p>Hi ${name},</p>
+      <p>Please click the link below to verify your email address:</p>
+      <a href="${verificationLink}">${verificationLink}</a>
+      <p>This link will expire in 24 hours.</p>
+    `;
+
+    await sendEmail(email, subject, text, html);
 
     res.status(200).json({ message: "Verification email sent" });
   } catch (err) {
     res.status(500).json({ message: "Error sending verification", error: err.message });
   }
 };
-
 
 export const loginUser = async (req, res) => {
   const { email, password } = req.body;
