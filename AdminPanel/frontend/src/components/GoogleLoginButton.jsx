@@ -1,6 +1,6 @@
 const GoogleLoginButton = () => {
   const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:5000/api/user/google";
+    window.location.href = "https://brand-driver-server.onrender.com/api/user/google"; 
   };
 
   return (

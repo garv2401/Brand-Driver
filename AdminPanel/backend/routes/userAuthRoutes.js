@@ -9,7 +9,7 @@ const router = express.Router();
 router.get("/verify-email", verifyEmail);
 router.post("/register", registerUser);
 router.post("/login", loginUser);
-router.post("/logout", logoutUser);
+router.post("/logout", logoutUser); 
 
 router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }));
 
@@ -23,7 +23,7 @@ router.get(
       { expiresIn: "1d" }
     );
     // Redirect to frontend with token
-    res.redirect(`http://localhost:5173/google-success?token=${token}`);
+    res.redirect(`https://brandingdriver.com/google-success?token=${token}`);
   }
 );
 
