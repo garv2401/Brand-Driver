@@ -18,7 +18,7 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-        <Header />
+        <Header /> 
 
         <Routes>
           {/* Public Route */}
