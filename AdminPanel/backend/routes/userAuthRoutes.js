@@ -18,7 +18,7 @@ router.get(
   passport.authenticate("google", { session: false }),
   (req, res) => {
     const token = jwt.sign(
-      { id: req.user._id, email: req.user.email },
+      { id: req.user._id, email: req.user.email,name: req.user.name },
       process.env.JWT_SECRET,
       { expiresIn: "1d" }
     );
@@ -45,33 +45,27 @@ localStorage.setItem("userToken", token);
  */}
 
 
+//front end example code to access info from google success token
+//url:https://brandingdriver.com/google-success?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGE2Yzg5MjU2NWJhZDMwODRiMjk1MyIsImVtYWlsIjoiZXppb29kaXRvcmUyMDA0QGdtYWlsLmNvbSIsImlhdCI6MTc0OTcwNzkxNCwiZXhwIjoxNzQ5Nzk0MzE0fQ.ijquhtO1caRbL9ngwtVAQVVUj1nT2tLejF1wRAjpN7k
+// import jwtDecode from "jwt-decode";
+// import { useEffect } from "react";
+// import { useSearchParams } from "react-router-dom"; // or use URLSearchParams
 
- //sample code for frontend usage
+// const GoogleSuccess = () => {
+//   const [searchParams] = useSearchParams();
+//   const token = searchParams.get("token");
 
-{/* <a href="http://localhost:5000/api/user/google">
-  <button>Login with Google</button>
-</a>
-// /src/pages/GoogleSuccess.jsx
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+//   useEffect(() => {
+//     if (token) {
+//       const decoded = jwtDecode(token);
+//       console.log("Decoded token:", decoded);
+//       // decoded.id and decoded.email,decode.name will be available
+//       // Store in localStorage or context if needed
+//     }
+//   }, [token]);
 
-const GoogleSuccess = () => {
-  const navigate = useNavigate();
+//   return <div>Logging in with Google...</div>;
+// };
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const token = params.get("token");
-
-    if (token) {
-      localStorage.setItem("userToken", token);
-      navigate("/dashboard");
-    } else {
-      navigate("/login"); // fallback if token is missing
-    }
-  }, []);
-
-  return <div>Logging in...</div>;
-};
-
-export default GoogleSuccess; */}
+// export default GoogleSuccess;
 
